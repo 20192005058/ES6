@@ -1,0 +1,97 @@
+#s{
+  text-align: center;
+}
+main {
+    width: 683px;
+    height: 384px;
+    position: absolute;   
+  /* text-align: center;*/
+  /*left: 50%;*/
+    transform: translateX(-50%);
+  }
+  main h4 {
+    text-align: center;
+  }
+  main .tabbox {
+    border: 1px solid #f7c6c6;
+  }
+  main .tabbox .firstnav {
+    position: relative;
+  }
+  main .tabbox .firstnav ul {
+    border-bottom: 2px solid #f2f2f2;
+    padding: 0;
+    margin: 0;
+  }
+  main .tabbox .firstnav ul li {
+    list-style-type: none;
+    display: inline-block;
+    height: 40px;
+    width: 80px;
+    text-align: center;
+    line-height: 40px;
+    position: relative;
+    border-right: 2px solid #f2f2f2;
+  }
+  main .tabbox .firstnav ul li span input {
+    height: 25px;
+    width: 55px;
+  }
+  main .tabbox .firstnav ul li .icon {
+    position: absolute;
+    top: 1px;
+    right: 1px;
+    font-size: 15px;
+    line-height: 10px;
+    color: white;
+    background-color: black;
+  }
+  main .tabbox .firstnav ul .liactive {
+    /* 被选中的效果 */
+    position: relative;
+    bottom: -2px;
+    border-bottom: 3px solid white;
+  }
+  main .tabbox .firstnav .tabadd {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    border: 1px solid #f2f2f2;
+    width: 15px;
+    height: 15px;
+    text-align: center;
+    line-height: 15px;
+  }
+  main .tabbox .tabscon {
+    height: 243px;
+    padding: 20px;
+    /* max-height: 343px; */
+  }
+  main .tabbox .tabscon .conactive {
+    display: block;
+  }
+  main .tabbox .tabscon .conactive input {
+    height: 200px;
+    width: 80%;
+  }
+  main .tabbox .tabscon section {
+    display: none;
+  }
+  .iconfont{
+    background: #fff;
+		        color: #3c3c3c;
+		        border: 1px solid #3c3c3c;
+		        border-radius: 100%;
+		        text-align: center;
+		        line-height: 10px;
+		        height: 10px;
+		        width: 10px;
+		        font-size: 12px;
+		        padding: 1px;
+		        top: -5px;
+		        right: -5px;
+		        position: absolute;
+  }
+  .iconfont::before{
+    content: "\2716";
+  }
